@@ -4,3 +4,4 @@ pandas==2.2.3
 joblib==1.4.2
 streamlit==1.36.0
 tensorflow>=2.13.0
+xgboost==2.0.3
