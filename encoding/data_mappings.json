@@ -1,0 +1,100 @@
+{
+  "column_mapping": {
+    "gender": "Gender",
+    "age": "Age",
+    "marital_status": "Marital Status",
+    "smoking": "Smoking",
+    "exercise_habit_mode": "Exercise Habit - Mode",
+    "muscle_power_ul_left": "Muscle Power - UL - Left",
+    "muscle_power_ll_left": "Muscle Power - LL - Left",
+    "gait": "Gait",
+    "risk_level": "Risk Level",
+    "risk_factor_dm": "Risk Factor - DM",
+    "risk_factor_hpl": "Risk Factor - HPL",
+    "risk_factor_family_hx": "Risk Factor - Family hx",
+    "risk_factor_bmi": "Risk Factor - BMI",
+    "test_termination_cause": "Test Today - Termination Cause",
+    "test_peak_hr": "Test Today - peak HR",
+    "test_mets": "Test Today - METS",
+    "risk_type": "RISK - Risk Type",
+    "target_hr_percent": "Target HR (%)",
+    "recumbent_bike_res": "Recumbent bike : RES",
+    "recumbent_bike_mhr": "Recumbent bike : MHR",
+    "recumbent_bike_rpe": "Recumbent bike : RPE",
+    "target_hr_bpm": "Target HR (bpm)",
+    "recumbent_bike_duration": "Recumbent bike : Duration"
+  },
+  "ordinal_mappings": {
+    "risk_level": {
+      "low": 0,
+      "moderate": 1
+    },
+    "test_termination_cause": {
+      "unknown": 0,
+      "complete test": 1,
+      "physical discomfort": 2,
+      "fatigue": 3,
+      "medical condition": 4,
+      "fatigue+physical discomfort": 5,
+      "fatigue+medical condition": 6,
+      "medical condition+physical discomfort": 7
+    },
+    "test_mets": {
+      "unknown": 0,
+      "low intensity": 1,
+      "moderate intensity (low)": 2,
+      "moderate intensity (high)": 3,
+      "high intensity": 4
+    },
+    "test_peak_hr": {
+      "unknown": 0,
+      "low intensity": 1,
+      "moderate intensity": 2,
+      "high intensity": 3,
+      "maximum intensity": 4,
+      "above maximum intensity": 5
+    },
+    "risk_factor_bmi": {
+      "unknown": 0,
+      "underweight": 1,
+      "healthy": 2,
+      "overweight": 3,
+      "obese": 4
+    },
+    "gait": {
+      "unknown": 0,
+      "abnormal": 1,
+      "normal": 2
+    }
+  },
+  "categorical_columns": [
+    "gender",
+    "marital_status",
+    "smoking",
+    "exercise_habit_mode",
+    "risk_factor_dm",
+    "risk_factor_hpl",
+    "risk_factor_family_hx",
+    "risk_type",
+    "recumbent_bike_res"
+  ],
+  "ordinal_columns": [
+    "risk_level",
+    "test_termination_cause",
+    "test_mets",
+    "test_peak_hr",
+    "risk_factor_bmi",
+    "gait"
+  ],
+  "numerical_columns": [
+    "age",
+    "muscle_power_ul_left",
+    "muscle_power_ll_left",
+    "target_hr_percent",
+    "recumbent_bike_mhr",
+    "recumbent_bike_rpe",
+    "target_hr_bpm",
+    "recumbent_bike_duration"
+  ],
+  "timestamp": "2026-01-12T04:13:45.398772"
+}

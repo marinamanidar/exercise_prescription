@@ -1,0 +1,71 @@
+{
+  "intensity_mapping": {
+    "0": {
+      "level": "Light",
+      "rpe": "11-13",
+      "hr_percent": "50-70%",
+      "description": "Comfortable, can hold conversation"
+    },
+    "1": {
+      "level": "Moderate",
+      "rpe": "14-16",
+      "hr_percent": "70-85%",
+      "description": "Somewhat hard, can speak short sentences"
+    },
+    "2": {
+      "level": "High",
+      "rpe": "17-19",
+      "hr_percent": "85-95%",
+      "description": "Hard, breathing heavily, talking difficult"
+    }
+  },
+  "exercise_type_mapping": {
+    "0": {
+      "type": "Recumbent Bike",
+      "description": "Low-impact seated exercise",
+      "muscle_groups": "Legs, Core"
+    },
+    "1": {
+      "type": "Walking/Treadmill",
+      "description": "Low-impact walking",
+      "muscle_groups": "Full body"
+    },
+    "2": {
+      "type": "Elliptical Trainer",
+      "description": "Low-impact cardio",
+      "muscle_groups": "Full body"
+    },
+    "3": {
+      "type": "Resistance Training",
+      "description": "Strength training with bands or weights",
+      "muscle_groups": "Arms, Legs, Core"
+    },
+    "4": {
+      "type": "Chair Exercises",
+      "description": "Seated exercises for limited mobility",
+      "muscle_groups": "Arms, Core, Legs"
+    }
+  },
+  "target_hr_mapping": {
+    "very_low": {
+      "range": "90-110 bpm",
+      "description": "For beginners, elderly, or high-risk patients"
+    },
+    "low": {
+      "range": "110-125 bpm",
+      "description": "Light intensity exercise"
+    },
+    "moderate": {
+      "range": "125-140 bpm",
+      "description": "Moderate intensity for general fitness"
+    },
+    "high": {
+      "range": "140-155 bpm",
+      "description": "Vigorous intensity for fit individuals"
+    },
+    "very_high": {
+      "range": "155-170 bpm",
+      "description": "High intensity for athletes"
+    }
+  }
+}
